@@ -1,0 +1,217 @@
+body{
+  width: auto;
+}
+.header{
+  width: 100%;
+  justify-content: start;
+}
+
+.contact{
+  align-items: end;
+  justify-content: end;
+}
+.card{
+  margin-left: 0px;
+}
+
+
+
+
+
+
+.nevbaar{
+  all: unset;
+  background: #0d1128;
+
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: auto;
+}
+    .navigation{
+      all: unset;
+      flex-direction: column-reverse;
+
+    }
+
+    .container {
+      all: unset;
+
+        display: inline-block;
+        cursor: pointer;
+      }
+      
+      .bar1, .bar2, .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: #333;
+        margin: 6px 0;
+        transition: 0.4s;
+      }
+      
+      .change .bar1 {
+        transform: translate(0, 11px) rotate(-45deg);
+      }
+      
+      .change .bar2 {opacity: 0;}
+      
+      .change .bar3 {
+        transform: translate(0, -11px) rotate(45deg);
+      }
+      .accordion {
+        all: unset;
+        position: relative;
+        visibility: visible;
+        width: fit-content;
+        padding: 5px;
+        margin-left: 10px;
+        /* background-color: #eee; */
+        color: #444;
+        cursor: pointer;
+        /* padding: 18px; */
+        /* width: 100%; */
+        /* border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s; */
+      }
+
+   
+      
+      .panel {
+        all: unset;
+        /* width: 40%; */
+        display: flex;
+        flex-direction: column-reverse;
+        position: relative;
+        padding: 0 18px;
+        display:none;
+        /* background-color: white; */
+        overflow: hidden;
+      }
+      .menu{
+        padding-top: 20px;
+        padding-left: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: start;
+      }
+      .menu ul{
+        margin-left: -10px;
+      }
+      .menu li{
+        margin: 15px;
+        margin-left: 0px;
+      }
+      .search{
+        height: fit-content;
+        padding-top: 7px;
+      }
+
+
+.features{
+  flex-wrap: wrap;
+  width: 100%;
+}
+.feature{
+  width: 100%;
+}
+.card-course{
+  margin-top: 10px;
+}
+.card-course a{
+  width: fit-content;
+}
+
+
+.about-head{
+  width: 100%;
+}
+.img-video img{
+  width: 300px;
+}
+
+
+.offers{
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.offer-card{
+  margin: 10px;
+}
+.offer-heading{
+  width: 90%;
+  margin: 0px;
+}
+.offer-img{
+  display: none;
+}
+
+.numbers{
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+
+
+.course{
+  width: 100%;
+  justify-content: space-around;
+  margin-right: 40px;
+}
+
+
+.quote{
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+.quote-request{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0px;
+
+}
+.qoute-form form{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.form-field{
+  flex-direction: column;
+  align-items: center;
+
+}
+.review{
+  width: 100%;
+}
+.review-card{
+  width: auto;
+  flex-wrap: wrap;
+}
+
+.Gallery{
+  flex-wrap: wrap;
+}
+.galery-card{
+  width: fit-content;
+}
+
+
+
+
+.footer{
+  justify-content: center;
+  align-items: center;
+  flex: auto;
+
+}
+.footer-body{
+  width: 100%;
+}
